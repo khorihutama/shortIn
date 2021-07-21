@@ -26,7 +26,7 @@ router.post('/short', async (req, res) => {
                 })
 
                 await url.save()
-                res.json(url.shortUrl)
+                res.json(url)
             }
         } catch (error) {
             console.log(error.message)
