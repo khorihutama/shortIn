@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router()
-const shortId = require('shortId')
+const shortId = require('shortid')
 const Url = require('../models/Url')
 const utils = require('../utils/utils')
 
